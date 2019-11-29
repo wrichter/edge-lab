@@ -1,6 +1,6 @@
 resources:
 - blog-django-namespace.yaml
-#- blog-django-route.yaml
+- blog-django-route.yaml
 bases:
 - github.com/stefan-bergstein/edge-lab/blog-django?ref=519f3bcbf2fc9a5311ff4d4fab2e33b8c9c30520
 patchesStrategicMerge:
