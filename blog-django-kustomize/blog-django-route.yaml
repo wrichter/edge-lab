@@ -3,7 +3,7 @@ kind: Route
 metadata:
   name: openshift-blog
 spec:
-#  host: openshift-blog-blog-django.apps-crc.testing
+  host: openshift-blog-blog-django.apps-crc.testing
   port:
     targetPort: 8080-tcp
   subdomain: ""
