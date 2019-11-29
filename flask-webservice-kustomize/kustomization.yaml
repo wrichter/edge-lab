@@ -1,0 +1,6 @@
+resources:
+- flask-webservice-namespace.yaml
+- flask-webservice-svc.yaml
+bases:
+- github.com/wrichter/edge-lab/flask-webservice
+patchesStrategicMerge:
