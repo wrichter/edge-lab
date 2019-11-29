@@ -10,7 +10,7 @@ spec:
   source:
     repoURL: https://github.com/wrichter/edge-lab.git
     targetRevision: HEAD
-    path: app-of-apps
+    path: app-of-apps-kustomize
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
