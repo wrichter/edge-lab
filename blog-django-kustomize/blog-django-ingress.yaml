@@ -1,0 +1,14 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: blog-django-ingress
+spec:
+  rules:
+    - 
+#      host: openshift-blog-blog-django.apps-crc.testing
+      http:
+        paths:
+          - path: /
+            backend:
+              serviceName: openshift-blog
+              servicePort: 8080

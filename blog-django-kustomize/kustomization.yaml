@@ -1,4 +1,6 @@
 bases:
-- ../blog-django
-patches:
+- github.com/stefan-bergstein/edge-lab/blog-django?ref=519f3bcbf2fc9a5311ff4d4fab2e33b8c9c30520
+resources:
+- blog-django-route.yaml
+patchesStrategicMerge:
 - blog-django-deployment.yaml
