@@ -12,5 +12,3 @@ spec:
     name: openshift-blog
     weight: 100
   wildcardPolicy: None
-status:
-  bla:
